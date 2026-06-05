@@ -70,4 +70,17 @@
 // console.log(chalk.green("Success!!"));
 // console.log(chalk.red("Failed!!"));
 
-const fs = require("fs");
+// const fs = require("fs");
+
+// prince, gaurav, vishal -
+
+// om,sakshi -
+
+if (err) return err; // single line return {}
+
+if (err) throw err; // throw is equal to return
+
+if (x == 3) {
+  return 0;
+}
+console.log("zero");
