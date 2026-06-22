@@ -46,3 +46,4 @@
 // export
 // import
 
+// client -> request -> api -> middleware -> server
