@@ -12,7 +12,7 @@ app.use(cors());
 
 connectDB(); // connect server with database - database start/on
 
-app.use("/api/book", routes);
+app.use("/api/book",routes);
 
 app.listen(5000, () => {
   console.log("server started successfully !!");

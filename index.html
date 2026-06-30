@@ -1,116 +1,91 @@
 <!doctype html>
-<html>
+
+<html lang="en">
   <head>
-    <title>Student Profile</title>
+    <meta charset="UTF-8" />
+    <title>HTML5 Practice</title>
+
+    ```
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" />
+
+    <style>
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      header,
+      nav,
+      main,
+      section,
+      footer {
+        padding: 15px;
+        margin: 10px;
+        border: 1px solid #ccc;
+      }
+      nav a {
+        margin: 10px;
+        text-decoration: none;
+      }
+    </style>
+    ```
   </head>
 
   <body>
+    ```
     <!-- Header -->
-    <center>
-      <font size="7" face="Arial" color="darkblue">
-        <b>Student Profile Website</b>
-      </font>
-    </center>
+    <header>
+      <h1>My HTML5 Website</h1>
+      <p>Welcome to HTML5 Practice</p>
+    </header>
 
-    <marquee>
-      <font size="4" color="red"> Welcome to My Personal Profile Page </font>
-    </marquee>
+    <!-- Navigation -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Videos</a>
+      <a href="#">Audio</a>
+    </nav>
 
-    <hr />
+    <!-- Main Content -->
+    <main>
+      <!-- Section -->
+      <section>
+        <h2>Audio Example</h2>
+        <audio controls loop>
+          <source src="audio.mp3" type="audio/mp3" />
+          Your browser does not support audio.
+        </audio>
+      </section>
 
-    <!-- Navigation with Bookmark Links -->
-    <center>
-      <a href="#about">About</a> | <a href="#skills">Skills</a> |
-      <a href="#education">Education</a> | <a href="#contact">Contact</a> |
-      <a href="https://www.google.com" target="_blank">Visit Google</a>
-    </center>
+      <section>
+        <h2>Video Example</h2>
+        <video width="400" controls autoplay muted>
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support video.
+        </video>
+      </section>
 
-    <hr />
+      <section>
+        <h2>Iframe Example (YouTube)</h2>
+        <iframe
+          width="400"
+          height="250"
+          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        >
+        </iframe>
+      </section>
 
-    <!-- About Section -->
-    <a name="about"></a>
-    <center>
-      <font size="6" face="Courier" color="green">
-        <b><ins>About Me</ins></b>
-      </font>
-    </center>
-
-    <p align="center">
-      <font size="4">
-        Hello! My name is <b>John</b>. I am a <i>Web Developer</i> and
-        <mark>Graphic Designer</mark>.
-      </font>
-    </p>
-
-    <center>
-      <img
-        src="https://t4.ftcdn.net/jpg/03/69/19/81/360_F_369198116_K0sFy2gRTo1lmIf5jVGeQmaIEibjC3NN.jpg"
-        alt="Profile Image"
-      />
-    </center>
-
-    <hr />
-
-    <!-- Skills Section -->
-    <a name="skills"></a>
-    <center>
-      <font size="6" face="Verdana" color="purple">
-        <b><ins>My Skills</ins></b>
-      </font>
-    </center>
-
-    <font size="4">
-      <ul type="square">
-        <li><b>HTML</b></li>
-        <li><i>CSS</i></li>
-        <li><ins>JavaScript</ins></li>
-        <li><mark>Photoshop</mark></li>
-      </ul>
-    </font>
-
-    <hr />
-
-    <!-- Education Section -->
-    <a name="education"></a>
-
-    <font size="6" face="Times New Roman" color="brown">
-      <b><ins>Education</ins></b>
-    </font>
-
-    <font size="4">
-      <ol>
-        <li>10th - ABC School</li>
-        <li>12th - XYZ School</li>
-        <li>BCA - College Name</li>
-      </ol>
-    </font>
-
-    <hr />
-
-    <!-- Contact Section -->
-    <a name="contact"></a>
-    <center>
-      <font size="6" face="Georgia" color="black">
-        <b><ins>Contact</ins></b>
-      </font>
-    </center>
-
-    <p align="center">
-      <font size="4">
-        📞 <b>+91 9876543210</b><br />
-        📧 <i>student@email.com</i><br />
-        🌐
-        <a href="https://www.instagram.com" target="_blank">
-          <mark>Instagram Profile</mark>
-        </a>
-      </font>
-    </p>
-
-    <hr />
+      <!-- Div Example -->
+      <div>
+        <h3>About Us</h3>
+        <p>This is a simple HTML5 page using all important tags.</p>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <center>
-      <font size="3"> © 2026 Student Profile </font>
-    </center>
+    <footer>
+      <p>© 2026 My Website</p>
+    </footer>
+    ```
   </body>
 </html>
